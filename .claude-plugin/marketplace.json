@@ -1,0 +1,23 @@
+{
+  "name": "lherron-agent-metaskills",
+  "owner": {
+    "name": "Lance Herron",
+    "email": "skills@notlevel.com"
+  },
+  "metadata": {
+    "description": "Meta-skills for agent harnesses",
+    "version": "0.0.1"
+  },
+  "plugins": [
+    {
+      "name": "metaskills",
+      "description": "Collection of meta-skills for enhanced agent capabilities",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/prompt-shaping",
+        "./skills/cued-retrieval"
+      ]
+    }
+  ]
+}
