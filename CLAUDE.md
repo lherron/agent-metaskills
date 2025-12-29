@@ -30,6 +30,10 @@ description: When Claude should use this skill
 - **Owner**: Lance Herron <skills@notlevel.com>
 - **Install**: `/plugin marketplace add lherron/agent-metaskills`
 
+## Git Commits
+
+Do not include "Generated with Claude Code" or "Co-Authored-By" lines in commit messages.
+
 ## License
 
 MIT

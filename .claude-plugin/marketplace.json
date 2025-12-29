@@ -17,6 +17,9 @@
       "skills": [
         "./skills/prompt-shaping",
         "./skills/cued-retrieval"
+      ],
+      "commands": [
+        "./commands"
       ]
     }
   ]
