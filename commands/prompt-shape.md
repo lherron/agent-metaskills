@@ -11,7 +11,11 @@ Follow this process:
 
 1. **Restate in natural language** - Articulate what you understand the user wants, making assumptions explicit
 2. **Bullet the structure** - Break the restatement into scannable components
-3. **State the next action** - Commit to a concrete step if the interpretation is correct
+3. **Propose a grounding loop** - Define how you will verify completion:
+   - What observable outcome proves the request is fulfilled?
+   - What concrete check can you execute (test, command, assertion)?
+   - Commit to iterating until the verification passes
+4. **State the next action** - Commit to a concrete step if the interpretation is correct
 
 Before proposing, orient to the environment:
 - Scan for existing patterns that inform reasonable defaults
